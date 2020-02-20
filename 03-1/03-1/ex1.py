@@ -3,7 +3,8 @@ numbers = data.split()
 numbers = [int(i) for i in numbers]
 minval = 9999999999998 #gitProject
 
-master = 0;
+master = 0
+a = 1
 for val in numbers: 
     if (minval > val):
         minval = val
